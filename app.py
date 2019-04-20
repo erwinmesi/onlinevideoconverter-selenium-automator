@@ -7,5 +7,7 @@ def get_video_links():
         reader = csv.reader(file)
         return [row[0] for row in reader]
 
+downloader = OnlineVideoConverterDownloader()
+
 for link in get_video_links():
-    OnlineVideoConverterDownloader().download(link)
+    downloader.download(link)
