@@ -1,0 +1,5 @@
+videos.csv
+settings.json
+debug.log
+Pipfile.lock
+*.pyc
